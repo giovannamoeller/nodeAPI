@@ -17,4 +17,4 @@ requireDir('./src/models/');
 app.use("/api", require('./src/routes'));
 
 
-app.listen(8000);
+app.listen();
